@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    padding: 10px;
+}
+
+.logo img {
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar ul {
+    margin-left: 600px;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    transition: 0.2s;
+    font-size: 15px;
+    color: orangered;
+}
+
+.navbar ul li a.active {
+    color: blue;
+}
+
+.body {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#Home {
+    background-color: black;
+    float: left;
+    align-items: center;
+    float: inline-start;
+    margin-left: 50px;
+}
+
+#Home .paragraph {
+    font-size: 20px;
+    margin-top: 100px;
+    color: orangered;
+    margin-left: 0px;
+}
+
+#Home h2 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Home b {
+    color: orangered;
+}
+
+.hiremebutton {
+    padding: 15px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    width: 120px;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 2px solid orangered;
+}
+
+.hiremebutton a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.talktome a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.talktome {
+    padding: 15px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    width: 120px;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 2px solid orangered;
+    margin-left: 10px;
+}
+
+.Details {
+    color: orangered;
+    font-family: sans-serif;
+}
+
+#Image {
+    float: inline-start;
+    margin-left: 300px;
+}
+
+#moredetails {
+    float: inline-end;
+
+}
+
+.findme {
+    position: absolute;
+    bottom: 80px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+}
